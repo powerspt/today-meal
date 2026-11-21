@@ -1,0 +1,6 @@
+{
+  "name": "todaymeal",
+  "description": "전국 초·중·고등학교의 이번 주 급식 식단표, 칼로리, 영양 정보 및 알레르기 유발 요소를 실시간으로 확인하는 깔끔한 주간 급식 앱입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,78 @@
+import { SchoolInfo } from '../types';
+
+export const PRESET_SCHOOLS: SchoolInfo[] = [
+  {
+    ATPT_OFCDC_SC_CODE: 'B10',
+    ATPT_OFCDC_SC_NM: '서울특별시교육청',
+    SD_SCHUL_CODE: '7010083',
+    SCHUL_NM: '서울고등학교',
+    SCHUL_KND_SC_NM: '고등학교',
+    LCTN_SC_NM: '서울특별시',
+    ORG_RDNMA: '서울특별시 서초구 효령로 197',
+  },
+  {
+    ATPT_OFCDC_SC_CODE: 'B10',
+    ATPT_OFCDC_SC_NM: '서울특별시교육청',
+    SD_SCHUL_CODE: '7010057',
+    SCHUL_NM: '경기고등학교',
+    SCHUL_KND_SC_NM: '고등학교',
+    LCTN_SC_NM: '서울특별시',
+    ORG_RDNMA: '서울특별시 강남구 영동대로 643',
+  },
+  {
+    ATPT_OFCDC_SC_CODE: 'B10',
+    ATPT_OFCDC_SC_NM: '서울특별시교육청',
+    SD_SCHUL_CODE: '7011488',
+    SCHUL_NM: '하나고등학교',
+    SCHUL_KND_SC_NM: '고등학교',
+    LCTN_SC_NM: '서울특별시',
+    ORG_RDNMA: '서울특별시 은평구 연서로 535',
+  },
+  {
+    ATPT_OFCDC_SC_CODE: 'J10',
+    ATPT_OFCDC_SC_NM: '경기도교육청',
+    SD_SCHUL_CODE: '7530851',
+    SCHUL_NM: '성남고등학교',
+    SCHUL_KND_SC_NM: '고등학교',
+    LCTN_SC_NM: '경기도',
+    ORG_RDNMA: '경기도 성남시 수정구',
+  },
+  {
+    ATPT_OFCDC_SC_CODE: 'C10',
+    ATPT_OFCDC_SC_NM: '부산광역시교육청',
+    SD_SCHUL_CODE: '7150117',
+    SCHUL_NM: '부산과학고등학교',
+    SCHUL_KND_SC_NM: '고등학교',
+    LCTN_SC_NM: '부산광역시',
+    ORG_RDNMA: '부산광역시 금정구 윤산로 85',
+  },
+  {
+    ATPT_OFCDC_SC_CODE: 'G10',
+    ATPT_OFCDC_SC_NM: '대전광역시교육청',
+    SD_SCHUL_CODE: '7430048',
+    SCHUL_NM: '대전대신고등학교',
+    SCHUL_KND_SC_NM: '고등학교',
+    LCTN_SC_NM: '대전광역시',
+    ORG_RDNMA: '대전광역시 서구 오량1길 82',
+  },
+  {
+    ATPT_OFCDC_SC_CODE: 'B10',
+    ATPT_OFCDC_SC_NM: '서울특별시교육청',
+    SD_SCHUL_CODE: '7041104',
+    SCHUL_NM: '서울고산초등학교',
+    SCHUL_KND_SC_NM: '초등학교',
+    LCTN_SC_NM: '서울특별시',
+    ORG_RDNMA: '서울특별시 구로구 중앙로 6',
+  },
+  {
+    ATPT_OFCDC_SC_CODE: 'B10',
+    ATPT_OFCDC_SC_NM: '서울특별시교육청',
+    SD_SCHUL_CODE: '7021115',
+    SCHUL_NM: '역삼중학교',
+    SCHUL_KND_SC_NM: '중학교',
+    LCTN_SC_NM: '서울특별시',
+    ORG_RDNMA: '서울특별시 강남구 도곡로43길 28',
+  },
+];
+
+export const DEFAULT_SCHOOL: SchoolInfo = PRESET_SCHOOLS[0];
